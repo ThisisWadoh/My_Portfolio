@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #2f855a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+section {
+    margin: 1rem auto;
+    max-width: 800px;
+}
+
+form input, form textarea, form button {
+    margin: 0.5rem 0;
+}
+
+.project {
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
